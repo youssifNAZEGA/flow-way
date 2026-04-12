@@ -1,0 +1,61 @@
+app/
+│
+├── main.py
+├── core/
+├── api/
+├── models/
+├── schemas/
+├── services/
+├── db/
+├── utils/
+
+
+
+app/
+│
+├── main.py                # point d'entrée
+│
+├── core/                 # config globale
+│   ├── config.py
+│   └── security.py
+│
+├── api/                  # routes
+│   ├── deps.py
+│   └── v1/
+│       ├── api.py
+│       ├── endpoints/
+│           ├── auth.py
+│           ├── users.py
+│           ├── vehicles.py
+│           ├── detection.py
+│           ├── barrier.py
+│           ├── payments.py
+│           └── history.py
+│
+├── models/               # ORM (DB)
+│   ├── user.py
+│   ├── vehicle.py
+│   ├── transaction.py
+│
+├── schemas/              # validation (Pydantic)
+│   ├── user.py
+│   ├── vehicle.py
+│   ├── auth.py
+│
+├── services/             # logique métier
+│   ├── auth_service.py
+│   ├── ocr_service.py
+│   ├── detection_service.py
+│   ├── barrier_service.py
+│
+├── db/
+│   ├── session.py
+│   └── base.py
+│
+├── utils/
+│   └── helpers.py
+
+
+
+
+curl -H "Authorization: Bearer TON_TOKEN" http://127.0.0.1:8000/auth/me
