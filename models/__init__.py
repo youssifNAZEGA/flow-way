@@ -6,6 +6,6 @@ from .litige import Litige
 from .notification import Notification
 from .sitePeage import TollSite
 from .typeVehicule import TypeVehicule
-from .vehicule import Vehicle
+from .vehicule import Vehicule
 from .voiePeage import TollLane
 from .passage import Passage

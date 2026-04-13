@@ -1,16 +1,16 @@
-from sqlalchemy import Column, Integer, String, Boolean, DateTime
-from sqlalchemy.sql import func
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
+from sqlalchemy.orm import relationship
 from db.base import Base
 
 
-class Vehicle(Base):
-    __tablename__ = "vehicles"
+class Vehicule(Base):
+    __tablename__ = "vehicules"
 
     id = Column(Integer, primary_key=True)
     plate = Column(String, unique=True, index=True)
 
-    user_id = Column(Integer, nullable=True)
-    company_id = Column(Integer, nullable=True)
+    user_id = Column(Integer,ForeignKey("users.id"), nullable=True)
+    company_id = Column(Integer,ForeignKey("companies.id"), nullable=True)
 
     type_id = Column(Integer)
     brand = Column(String)
@@ -19,3 +19,6 @@ class Vehicle(Base):
     photo = Column(String)
 
     is_active = Column(Boolean, default=True)
+
+    owner = relationship("User", back_populates="vehicules")
+    company = relationship("Company", back_populates="vehicules")
