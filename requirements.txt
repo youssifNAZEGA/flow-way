@@ -4,4 +4,5 @@ fastapi uvicorn python-multipart sqlalchemy sqlmodel psycopg2-binary alembic pyd
 email-validator
 black flake8 isort
 bcrypt
+easyocr numpy
 sudo apt install tesseract-ocr
