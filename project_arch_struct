@@ -55,7 +55,17 @@ app/
 ├── utils/
 │   └── helpers.py
 
+UC-01 : Inscription
+UC-02 : Ajouter véhicule
+UC-03 : Recharger compte
+UC-04 : Passage péage
+UC-05 : Notification
+UC-06 : Historique
+UC-07 : Gestion flotte (entreprise)
+UC-08 : Litige
+UC-09 : Supervision
+UC-10 : Tarification
 
-
+Capteur (IR) → Arduino → Bluetooth → Mobile → Caméra → Backend → Réponse → Arduino (barrière)
 
 curl -H "Authorization: Bearer TON_TOKEN" http://127.0.0.1:8000/auth/me

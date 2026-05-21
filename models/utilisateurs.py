@@ -1,5 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from sqlalchemy.sql import func
+from sqlalchemy.orm import relationship
 from db.base import Base
 
 class User(Base):
@@ -12,3 +13,5 @@ class User(Base):
     role = Column(String)
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime, server_default=func.now())
+
+    vehicules = relationship("Vehicule", back_populates="owner")

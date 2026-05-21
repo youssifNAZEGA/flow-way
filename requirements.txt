@@ -1,7 +1,22 @@
-
-#Les dépendances 
-fastapi uvicorn python-multipart sqlalchemy sqlmodel psycopg2-binary alembic pydantic python-jose passlib[bcrypt] opencv-python pytesseract pillow python-dotenv
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+sqlmodel
+psycopg2-binary
+alembic
+pydantic
+python-jose
+passlib[bcrypt]
+opencv-python
+pytesseract
+pillow
+python-dotenv
 email-validator
-black flake8 isort
+black
+flake8
+isort
 bcrypt
-sudo apt install tesseract-ocr
+easyocr
+numpy
+imutils

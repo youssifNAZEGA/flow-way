@@ -32,10 +32,3 @@ def login(data: LoginSchema, db: Session = Depends(get_db)):
         "message": "Login successful",
         "token": token
     }
-
-
-@router.get("/me")
-def get_me(current_user = Depends(get_current_user)):
-    return {
-        "email": current_user.email
-    }

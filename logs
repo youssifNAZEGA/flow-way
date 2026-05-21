@@ -1,0 +1,332 @@
+I/flutter (21790): 📷 Initialisation caméra...
+I/flutter (21790): 🔍 Recherche HC-05...
+I/flutter (21790): ❌ HC-05 non trouvé
+D/WmDebugSystemUi(21790): setSystemUiVisibility visibility=LAYOUT_STABLE LAYOUT_FULLSCREEN LIGHT_STATUS_BAR
+D/WmDebugSystemUi(21790): java.lang.Throwable
+D/WmDebugSystemUi(21790):       at android.view.View.setSystemUiVisibility(View.java:30236)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setSystemUiFlag(WindowInsetsControllerCompat.java:828)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:674)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:223)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle(PlatformPlugin.java:469)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.access$700(PlatformPlugin.java:36)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle(PlatformPlugin.java:123)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.systemchannels.PlatformChannel$1.onMethodCall(PlatformChannel.java:130)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:286)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:313)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/WmDebugSystemUi(21790):       at android.os.Handler.handleCallback(Handler.java:959)
+D/WmDebugSystemUi(21790):       at android.os.Handler.dispatchMessage(Handler.java:100)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loopOnce(Looper.java:249)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loop(Looper.java:337)
+D/WmDebugSystemUi(21790):       at android.app.ActivityThread.main(ActivityThread.java:9562)
+D/WmDebugSystemUi(21790):       at java.lang.reflect.Method.invoke(Native Method)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:648)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+D/WmDebugSystemUi(21790): setSystemBarsAppearance appearance=LIGHT_STATUS_BARS mask=8
+D/WmDebugSystemUi(21790): java.lang.Throwable
+D/WmDebugSystemUi(21790):       at android.view.ViewRootInsetsControllerHost.setSystemBarsAppearance(ViewRootInsetsControllerHost.java:182)
+D/WmDebugSystemUi(21790):       at android.view.InsetsController.setSystemBarsAppearance(InsetsController.java:2172)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:677)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:223)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle(PlatformPlugin.java:469)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.access$700(PlatformPlugin.java:36)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle(PlatformPlugin.java:123)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.systemchannels.PlatformChannel$1.onMethodCall(PlatformChannel.java:130)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:286)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:313)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/WmDebugSystemUi(21790):       at android.os.Handler.handleCallback(Handler.java:959)
+D/WmDebugSystemUi(21790):       at android.os.Handler.dispatchMessage(Handler.java:100)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loopOnce(Looper.java:249)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loop(Looper.java:337)
+D/WmDebugSystemUi(21790):       at android.app.ActivityThread.main(ActivityThread.java:9562)
+D/WmDebugSystemUi(21790):       at java.lang.reflect.Method.invoke(Native Method)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:648)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+D/WmDebugSystemUi(21790): setSystemUiVisibility visibility=LAYOUT_STABLE LAYOUT_FULLSCREEN LIGHT_STATUS_BAR
+D/WmDebugSystemUi(21790): java.lang.Throwable
+D/WmDebugSystemUi(21790):       at android.view.View.setSystemUiVisibility(View.java:30236)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.unsetSystemUiFlag(WindowInsetsControllerCompat.java:821)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setAppearanceLightNavigationBars(WindowInsetsControllerCompat.java:716)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat.setAppearanceLightNavigationBars(WindowInsetsControllerCompat.java:257)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle(PlatformPlugin.java:508)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.access$700(PlatformPlugin.java:36)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle(PlatformPlugin.java:123)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.systemchannels.PlatformChannel$1.onMethodCall(PlatformChannel.java:130)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:286)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:313)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/WmDebugSystemUi(21790):       at android.os.Handler.handleCallback(Handler.java:959)
+D/WmDebugSystemUi(21790):       at android.os.Handler.dispatchMessage(Handler.java:100)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loopOnce(Looper.java:249)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loop(Looper.java:337)
+D/WmDebugSystemUi(21790):       at android.app.ActivityThread.main(ActivityThread.java:9562)
+D/WmDebugSystemUi(21790):       at java.lang.reflect.Method.invoke(Native Method)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:648)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+D/WmDebugSystemUi(21790): setSystemBarsAppearance appearance= mask=16
+D/WmDebugSystemUi(21790): java.lang.Throwable
+D/WmDebugSystemUi(21790):       at android.view.ViewRootInsetsControllerHost.setSystemBarsAppearance(ViewRootInsetsControllerHost.java:182)
+D/WmDebugSystemUi(21790):       at android.view.InsetsController.setSystemBarsAppearance(InsetsController.java:2172)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setAppearanceLightNavigationBars(WindowInsetsControllerCompat.java:719)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat.setAppearanceLightNavigationBars(WindowInsetsControllerCompat.java:257)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle(PlatformPlugin.java:508)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.access$700(PlatformPlugin.java:36)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle(PlatformPlugin.java:123)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.systemchannels.PlatformChannel$1.onMethodCall(PlatformChannel.java:130)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:286)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:313)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/WmDebugSystemUi(21790):       at android.os.Handler.handleCallback(Handler.java:959)
+D/WmDebugSystemUi(21790):       at android.os.Handler.dispatchMessage(Handler.java:100)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loopOnce(Looper.java:249)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loop(Looper.java:337)
+D/WmDebugSystemUi(21790):       at android.app.ActivityThread.main(ActivityThread.java:9562)
+D/WmDebugSystemUi(21790):       at java.lang.reflect.Method.invoke(Native Method)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:648)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+D/WmDebugSystemUi(21790): setSystemUiVisibility visibility=LAYOUT_STABLE LAYOUT_FULLSCREEN LIGHT_STATUS_BAR
+D/WmDebugSystemUi(21790): java.lang.Throwable
+D/WmDebugSystemUi(21790):       at android.view.View.setSystemUiVisibility(View.java:30236)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setSystemUiFlag(WindowInsetsControllerCompat.java:828)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:674)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:223)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle(PlatformPlugin.java:469)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.access$700(PlatformPlugin.java:36)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle(PlatformPlugin.java:123)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.systemchannels.PlatformChannel$1.onMethodCall(PlatformChannel.java:130)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:286)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:313)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/WmDebugSystemUi(21790):       at android.os.Handler.handleCallback(Handler.java:959)
+D/WmDebugSystemUi(21790):       at android.os.Handler.dispatchMessage(Handler.java:100)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loopOnce(Looper.java:249)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loop(Looper.java:337)
+D/WmDebugSystemUi(21790):       at android.app.ActivityThread.main(ActivityThread.java:9562)
+D/WmDebugSystemUi(21790):       at java.lang.reflect.Method.invoke(Native Method)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:648)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+D/WmDebugSystemUi(21790): setSystemBarsAppearance appearance=LIGHT_STATUS_BARS mask=8
+D/WmDebugSystemUi(21790): java.lang.Throwable
+D/WmDebugSystemUi(21790):       at android.view.ViewRootInsetsControllerHost.setSystemBarsAppearance(ViewRootInsetsControllerHost.java:182)
+D/WmDebugSystemUi(21790):       at android.view.InsetsController.setSystemBarsAppearance(InsetsController.java:2172)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat$Impl30.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:677)
+D/WmDebugSystemUi(21790):       at androidx.core.view.WindowInsetsControllerCompat.setAppearanceLightStatusBars(WindowInsetsControllerCompat.java:223)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle(PlatformPlugin.java:469)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin.access$700(PlatformPlugin.java:36)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle(PlatformPlugin.java:123)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.systemchannels.PlatformChannel$1.onMethodCall(PlatformChannel.java:130)
+D/WmDebugSystemUi(21790):       at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:286)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:313)
+D/WmDebugSystemUi(21790):       at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+D/WmDebugSystemUi(21790):       at android.os.Handler.handleCallback(Handler.java:959)
+D/WmDebugSystemUi(21790):       at android.os.Handler.dispatchMessage(Handler.java:100)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loopOnce(Looper.java:249)
+D/WmDebugSystemUi(21790):       at android.os.Looper.loop(Looper.java:337)
+D/WmDebugSystemUi(21790):       at android.app.ActivityThread.main(ActivityThread.java:9562)
+D/WmDebugSystemUi(21790):       at java.lang.reflect.Method.invoke(Native Method)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:648)
+D/WmDebugSystemUi(21790):       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+D/DeferrableSurface(21790): surface closed,  useCount=2 closed=true androidx.camera.core.SurfaceRequest$2@39281fd
+D/DeferrableSurface(21790): surface closed,  useCount=0 closed=true androidx.camera.core.processing.SurfaceEdge$SettableSurface@121fac1
+D/DeferrableSurface(21790): Surface terminated[total_surfaces=3, used_surfaces=3](androidx.camera.core.processing.SurfaceEdge$SettableSurface@121fac1}
+D/DeferrableSurface(21790): use count-1,  useCount=1 closed=true androidx.camera.core.SurfaceRequest$2@39281fd
+W/ScreenFlashWrapper(21790): completePendingScreenFlashClear: none pending!
+D/ImageCapture(21790): clearPipeline
+D/DeferrableSurface(21790): surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@238869f
+D/DeferrableSurface(21790): surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@e7e1631
+W/ScreenFlashWrapper(21790): completePendingScreenFlashClear: none pending!
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use cases [androidx.camera.core.Preview-7119f7de-284b-416e-a2c2-ae64edf79582188828130, androidx.camera.core.ImageCapture-47fbccb3-7e13-4270-a8e9-56ead61adb3c29973673, androidx.camera.core.ImageAnalysis-9b2d4167-c0f2-4f5b-a463-ca14d610311b62003813] now DETACHED for camera
+D/UseCaseAttachState(21790): All use case: [] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Resetting Capture Session
+D/SyncCaptureSessionImpl(21790): [androidx.camera.camera2.internal.SynchronizedCaptureSessionImpl@d8dc76f] Session call close()
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Releasing session in state OPENED
+D/Camera2CameraControlImp(21790): setActive: isActive = false
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/VideoUsageControl(21790): resetDirectly: mVideoUsage reset!
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Closing camera.
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Transitioning camera internal state: OPENED --> CLOSING
+D/CameraStateRegistry(21790): Recalculating open cameras:
+D/CameraStateRegistry(21790): Camera                                       State                 
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Camera@9a7a534[id=1]                         UNKNOWN               
+D/CameraStateRegistry(21790): Camera@578c0a5[id=0]                         CLOSING               
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Open count: 1 (Max allowed: 1)
+D/CameraStateMachine(21790): New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+D/CameraStateMachine(21790): Publishing new public camera state CameraState{type=CLOSING, error=null}
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Resetting Capture Session
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Skipping Capture Session state check due to current camera state: CLOSING and previous session status: false
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Releasing session in state CLOSING
+D/SyncCaptureSessionImpl(21790): [androidx.camera.camera2.internal.SynchronizedCaptureSessionImpl@d8dc76f] Session call super.close()
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/CaptureSession(21790): onSessionFinished()
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} closing camera
+D/CameraExtImplXiaoMi(21790): releaseCameraDevice: 0
+D/CameraDevice-JV-0(21790): close: E. id = 0
+E/ProxyApiRegistrar(21790): missing-instance-error: Error returned from calling Observer.onChanged: Callback to `Observer.onChanged` failed because native instance was not in the instance manager. Details: 
+D/Recorder(21790): mRequiredFreeStorageBytes = 50 MB
+D/ResolvedFeatureGroup(21790): resolveFeatureGroup: sessionConfig = androidx.camera.core.LegacySessionConfig@3b96bb7, lensFacing = 1
+D/CameraUseCaseAdapter(21790): addUseCases: appUseCasesToAdd = [Preview:androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa, ImageCapture:androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e02, ImageAnalysis:androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d91], featureGroup = null
+D/UseCase (21790): applyFeaturesToConfig: mFeatureGroup = null, this = Preview:androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa
+D/SupportedOutputSizesCollector(21790): useCaseConfig = androidx.camera.core.impl.PreviewConfig@b4ecf24, candidateSizes = [2560x1920, 2560x1440, 1920x1440, 2340x1080, 1920x1088, 1920x1080, 1440x1088, 1440x1080, 1280x960, 1648x720, 1080x1080, 1600x720, 1560x720, 1520x720, 1440x720, 1280x720, 1080x720, 960x720, 720x720, 720x480, 640x480, 640x360, 480x320, 352x288, 320x240, 192x144, 176x144, 192x108, 160x96]
+D/UseCase (21790): applyFeaturesToConfig: mFeatureGroup = null, this = ImageCapture:androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e02
+D/SupportedOutputSizesCollector(21790): useCaseConfig = androidx.camera.core.impl.ImageCaptureConfig@d835a8d, candidateSizes = [2560x1920, 1920x1440, 2340x1080, 1920x1088, 1920x1080, 1440x1088, 1440x1080, 1280x960, 1648x720, 1080x1080, 1600x720, 1560x720, 1520x720, 1440x720, 1280x720, 1080x720, 960x720, 720x720, 720x480, 640x480, 640x360, 480x320, 352x288, 320x240, 176x144]
+D/UseCase (21790): applyFeaturesToConfig: mFeatureGroup = null, this = ImageAnalysis:androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d91
+D/SupportedOutputSizesCollector(21790): useCaseConfig = androidx.camera.core.impl.ImageAnalysisConfig@c92b442, candidateSizes = [2560x1920, 2560x1440, 1920x1440, 2340x1080, 1920x1088, 1920x1080, 1440x1088, 1440x1080, 1280x960, 1648x720, 1080x1080, 1600x720, 1560x720, 1520x720, 1440x720, 1280x720, 1080x720, 960x720, 720x720, 720x480, 640x480, 640x360, 480x320, 352x288, 320x240, 192x144, 176x144, 192x108, 160x96]
+D/DynamicRangeResolver(21790): Resolved dynamic range for use case androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa to no compatible HDR dynamic ranges.
+D/DynamicRangeResolver(21790): DynamicRange@174ae90{encoding=UNSPECIFIED, bitDepth=0}
+D/DynamicRangeResolver(21790): ->
+D/DynamicRangeResolver(21790): DynamicRange@1ceb553{encoding=SDR, bitDepth=8}
+D/SupportedSurfaceCombination(21790): resolvedDynamicRanges = {androidx.camera.core.impl.ImageAnalysisConfig@c92b442=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}, androidx.camera.core.impl.PreviewConfig@b4ecf24=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}, androidx.camera.core.impl.ImageCaptureConfig@d835a8d=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}}
+D/SupportedSurfaceCombination(21790): getSuggestedStreamSpecifications: isPreviewStabilizationOn = false, mIsPreviewStabilizationSupported = false, isFeatureComboInvocation = false
+D/SupportedSurfaceCombination(21790): resolveSpecsByCheckingMethod: checkingMethod = WITHOUT_FEATURE_COMBO
+D/SupportedSurfaceCombination(21790): resolveSpecsBySettings: featureSettings = FeatureSettings{getCameraMode=0, hasVideoCapture=false, getRequiredMaxBitDepth=8, isPreviewStabilizationOn=false, isUltraHdrOn=false, isHighSpeedOn=false, isFeatureComboInvocation=false, requiresFeatureComboQuery=false, getTargetFpsRange=[0, 0], isStrictFpsRequired=false}
+D/CameraQuirks(21790): camera2 CameraQuirks = 
+D/CameraQuirks(21790): camera2 CameraQuirks = 
+D/CameraQuirks(21790): camera2 CameraQuirks = 
+D/SupportedSurfaceCombination(21790): resolveSpecsBySettings: bestSizesAndFps = BestSizesAndMaxFpsForConfigs{bestSizes=[720x480, 720x480, 720x480], bestSizesForStreamUseCase=null, maxFpsForBestSizes=30, maxFpsForStreamUseCase=2147483647, maxFpsForAllSizes=2147483647}
+D/UseCase (21790): applyFeaturesToConfig: mFeatureGroup = null, this = Preview:androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa
+D/Preview (21790): onSuggestedStreamSpecUpdated: primaryStreamSpec = StreamSpec{resolution=720x480, originalConfiguredResolution=720x480, dynamicRange=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}, sessionType=0, expectedFrameRateRange=[0, 0], implementationOptions=androidx.camera.camera2.impl.Camera2ImplConfig@a6f0c53, zslDisabled=false}, secondaryStreamSpec null
+D/DeferrableSurface(21790): Surface created[total_surfaces=4, used_surfaces=3](androidx.camera.core.processing.SurfaceEdge$SettableSurface@23bb990}
+D/DeferrableSurface(21790): Surface created[total_surfaces=5, used_surfaces=3](androidx.camera.core.SurfaceRequest$2@6cadebc}
+D/DeferrableSurface(21790): New surface in use[total_surfaces=5, used_surfaces=4](androidx.camera.core.SurfaceRequest$2@6cadebc}
+D/DeferrableSurface(21790): use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@6cadebc
+D/UseCase (21790): applyFeaturesToConfig: mFeatureGroup = null, this = ImageCapture:androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e02
+D/ImageCapture(21790): onSuggestedStreamSpecUpdated: primaryStreamSpec = StreamSpec{resolution=720x480, originalConfiguredResolution=720x480, dynamicRange=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}, sessionType=0, expectedFrameRateRange=[0, 0], implementationOptions=androidx.camera.camera2.impl.Camera2ImplConfig@2e289c1, zslDisabled=false}, secondaryStreamSpec null
+D/ImageCapture(21790): createPipeline(cameraId: 0, streamSpec: StreamSpec{resolution=720x480, originalConfiguredResolution=720x480, dynamicRange=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}, sessionType=0, expectedFrameRateRange=[0, 0], implementationOptions=androidx.camera.camera2.impl.Camera2ImplConfig@2e289c1, zslDisabled=false})
+D/BufferQueueConsumer(21790): [](id:551e00000006,api:0,p:-1,c:21790) connect: controlledByApp=true
+D/DeferrableSurface(21790): Surface created[total_surfaces=6, used_surfaces=4](androidx.camera.core.impl.ImmediateSurface@cb3a566}
+D/UseCase (21790): applyFeaturesToConfig: mFeatureGroup = null, this = ImageAnalysis:androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d91
+D/ImageAnalysis(21790): onSuggestedStreamSpecUpdated: primaryStreamSpec = StreamSpec{resolution=720x480, originalConfiguredResolution=720x480, dynamicRange=DynamicRange@1ceb553{encoding=SDR, bitDepth=8}, sessionType=0, expectedFrameRateRange=[0, 0], implementationOptions=androidx.camera.camera2.impl.Camera2ImplConfig@1964954, zslDisabled=false}, secondaryStreamSpec null
+D/BufferQueueConsumer(21790): [](id:551e00000007,api:0,p:-1,c:21790) connect: controlledByApp=true
+D/BufferQueueConsumer(21790): [](id:551e00000008,api:0,p:-1,c:21790) connect: controlledByApp=true
+D/DeferrableSurface(21790): Surface created[total_surfaces=7, used_surfaces=4](androidx.camera.core.impl.ImmediateSurface@24d00fd}
+D/ImageCapture(21790): onCameraControlReady
+D/Camera2CameraControlImp(21790): setFlashMode: mFlashMode = 2
+D/BufferQueueConsumer(21790): [](id:551e00000009,api:0,p:-1,c:21790) connect: controlledByApp=true
+D/Camera2PresenceSrc(21790): System onCameraAvailable: 0
+D/CameraInjector(21790): updateCloudCameraControllerInfoAsync: has aleardy start update task.
+D/CameraInjector(21790): waitForResult: 
+D/CameraDevice-JV-0(21790): close: X
+W/le.peage_mobile(21790): PerfMonitor async binderTransact :  time=355ms interface=android.hardware.camera2.ICameraDeviceCallbacks code=3
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683 ACTIVE
+W/CameraDevice-JV-0(21790): Device error received, code 5, frame number 2253, request ID 0, subseq ID 0
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+W/CameraDevice-JV-0(21790): Device error received, code 3, frame number 2253, request ID 0, subseq ID 0
+W/libc    (21790): Access denied finding property "vendor.camera.aux.packagelist"
+W/CameraDevice-JV-0(21790): Device error received, code 3, frame number 2254, request ID 0, subseq ID 0
+W/libc    (21790): Access denied finding property "vendor.camera.aux.packagelistext"
+W/CameraDevice-JV-0(21790): Device error received, code 3, frame number 2255, request ID 0, subseq ID 0
+W/CameraDevice-JV-0(21790): Device error received, code 3, frame number 2256, request ID 0, subseq ID 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981 ACTIVE
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/Camera2PresenceSrc(21790): [FetchData] Refreshed camera list: CameraIdentifier{cameraIds=0}, CameraIdentifier{cameraIds=1}
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683 ACTIVE
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d9162857910 INACTIVE
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/UseCaseAttachState(21790): Active and attached use case: [] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use cases [androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981, androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d9162857910] now ATTACHED
+D/Camera2CameraControlImp(21790): setActive: isActive = true
+D/UseCaseAttachState(21790): All use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981, androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d9162857910] for camera: 0
+D/UseCaseAttachState(21790): Active and attached use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Resetting Capture Session
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Skipping Capture Session state check due to current camera state: CLOSING and previous session status: false
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Releasing session in state CLOSING
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Transitioning camera internal state: CLOSING --> REOPENING
+D/CameraStateRegistry(21790): Recalculating open cameras:
+D/CameraStateRegistry(21790): Camera                                       State                 
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Camera@9a7a534[id=1]                         UNKNOWN               
+D/CameraStateRegistry(21790): Camera@578c0a5[id=0]                         OPENING               
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Open count: 1 (Max allowed: 1)
+D/CameraStateMachine(21790): New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+D/CameraStateMachine(21790): Publishing new public camera state CameraState{type=OPENING, error=null}
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981 ACTIVE
+E/ProxyApiRegistrar(21790): missing-instance-error: Error returned from calling Observer.onChanged: Callback to `Observer.onChanged` failed because native instance was not in the instance manager. Details: 
+D/UseCaseAttachState(21790): Active and attached use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683 ACTIVE
+D/UseCaseAttachState(21790): Active and attached use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Use case androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d9162857910 INACTIVE
+D/UseCaseAttachState(21790): Active and attached use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981] for camera: 0
+D/DeferrableSurface(21790): use count-1,  useCount=0 closed=true androidx.camera.core.SurfaceRequest$2@39281fd
+D/DeferrableSurface(21790): Surface no longer in use[total_surfaces=7, used_surfaces=3](androidx.camera.core.SurfaceRequest$2@39281fd}
+D/DeferrableSurface(21790): Surface terminated[total_surfaces=6, used_surfaces=3](androidx.camera.core.SurfaceRequest$2@39281fd}
+D/DeferrableSurface(21790): use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@238869f
+D/DeferrableSurface(21790): Surface no longer in use[total_surfaces=6, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@238869f}
+D/DeferrableSurface(21790): Surface terminated[total_surfaces=5, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@238869f}
+D/DeferrableSurface(21790): use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@e7e1631
+D/DeferrableSurface(21790): Surface no longer in use[total_surfaces=5, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@e7e1631}
+D/DeferrableSurface(21790): Surface terminated[total_surfaces=4, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@e7e1631}
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} CameraDevice.onClosed()
+D/BufferQueueConsumer(21790): [ImageReader-720x480f21m4-21790-0](id:551e00000002,api:0,p:-1,c:21790) disconnect
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Attempting to open the camera.
+D/CameraStateRegistry(21790): tryOpenCamera(Camera@578c0a5[id=0]) [Available Cameras: 0, Already Open: true (Previous state: OPENING)] --> SUCCESS
+D/BufferQueueConsumer(21790): [ImageReader-720x480f23m4-21790-1](id:551e00000003,api:0,p:-1,c:21790) disconnect
+D/CameraStateRegistry(21790): Recalculating open cameras:
+D/CameraStateRegistry(21790): Camera                                       State                 
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Camera@9a7a534[id=1]                         UNKNOWN               
+D/CameraStateRegistry(21790): Camera@578c0a5[id=0]                         OPENING               
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Open count: 1 (Max allowed: 1)
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Opening camera.
+D/BufferQueueConsumer(21790): [ImageReader-720x480f23m4-21790-2](id:551e00000004,api:0,p:-1,c:21790) disconnect
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Transitioning camera internal state: REOPENING --> OPENING
+D/CameraStateMachine(21790): New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+D/UseCaseAttachState(21790): All use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981, androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d9162857910] for camera: 0
+W/libc    (21790): Access denied finding property "persist.vendor.camera.privapp.list"
+D/CameraExtImplXiaoMi(21790): initCameraDevice: 0
+I/CameraManager(21790): Open camera top activityName is com.example.peage_mobile.MainActivity
+D/Camera2PresenceSrc(21790): System onCameraUnavailable: 0
+D/CameraInjector(21790): updateCloudCameraControllerInfoAsync: has aleardy start update task.
+D/CameraInjector(21790): waitForResult: 
+W/libc    (21790): Access denied finding property "vendor.camera.aux.packagelist"
+W/libc    (21790): Access denied finding property "vendor.camera.aux.packagelistext"
+D/Camera2PresenceSrc(21790): [FetchData] Refreshed camera list: CameraIdentifier{cameraIds=0}, CameraIdentifier{cameraIds=1}
+D/SyncCaptureSessionImpl(21790): [androidx.camera.camera2.internal.SynchronizedCaptureSessionImpl@d8dc76f] onClosed()
+D/UseCaseAttachState(21790): Active and attached use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981] for camera: 0
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} CameraDevice.onOpened()
+D/Camera2CameraImpl(21790): {Camera@578c0a5[id=0]} Transitioning camera internal state: OPENING --> OPENED
+D/CameraStateRegistry(21790): Recalculating open cameras:
+D/CameraStateRegistry(21790): Camera                                       State                 
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Camera@9a7a534[id=1]                         UNKNOWN               
+D/CameraStateRegistry(21790): Camera@578c0a5[id=0]                         OPEN                  
+D/CameraStateRegistry(21790): -------------------------------------------------------------------
+D/CameraStateRegistry(21790): Open count: 1 (Max allowed: 1)
+D/CameraStateMachine(21790): New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+D/CameraStateMachine(21790): Publishing new public camera state CameraState{type=OPEN, error=null}
+D/UseCaseAttachState(21790): All use case: [androidx.camera.core.ImageCapture-63e8bb65-5a7e-4e1d-9c1d-f0bdb1124e0290430683, androidx.camera.core.Preview-8d5c6e88-b4d0-43fc-93fb-64969ae1cfaa160509981, androidx.camera.core.ImageAnalysis-9d937fc4-929e-4498-9eca-a82390259d9162857910] for camera: 0
+D/StreamUseCaseUtil(21790): populateSurfaceToStreamUseCaseMapping() - streamUseCaseMap = {}
+D/SyncCaptureSessionBase(21790): [androidx.camera.camera2.internal.SynchronizedCaptureSessionImpl@b43d838] getSurface done with results: [Surface(name=null mNativeObject=-5476376643812676160)/@0xa648d4a, Surface(name=null mNativeObject=-5476376643812780800)/@0xd2c78aa, Surface(name=null mNativeObject=-5476376643812859280)/@0x62f5c9b]
+E/ProxyApiRegistrar(21790): missing-instance-error: Error returned from calling Observer.onChanged: Callback to `Observer.onChanged` failed because native instance was not in the instance manager. Details: 
+D/CaptureSession(21790): Opening capture session.
+D/Camera2CaptureRequestBuilder(21790): template type = 1
+D/Camera2CaptureRequestBuilder(21790): applyAeFpsRange: expectedFrameRateRange = [0, 0]
+D/SyncCaptureSessionImpl(21790): [androidx.camera.camera2.internal.SynchronizedCaptureSessionImpl@b43d838] start openCaptureSession
+D/DeferrableSurface(21790): use count+1, useCount=2 androidx.camera.core.SurfaceRequest$2@6cadebc
+D/DeferrableSurface(21790): New surface in use[total_surfaces=4, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@cb3a566}
+D/DeferrableSurface(21790): use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@cb3a566
+D/DeferrableSurface(21790): New surface in use[total_surfaces=4, used_surfaces=3](androidx.camera.core.impl.ImmediateSurface@24d00fd}
+D/DeferrableSurface(21790): use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@24d00fd
+D/CameraDevice-JV-0(21790): waitUntilIdle: E. id = 0
+D/CameraDevice-JV-0(21790): waitUntilIdle: X
+D/SyncCaptureSessionImpl(21790): [androidx.camera.camera2.internal.SynchronizedCaptureSessionImpl@b43d838] Session onConfigured()
+D/CaptureSession(21790): Attempting to send capture request onConfigured
+D/CaptureSession(21790): Issuing request for session.
+D/Camera2CaptureRequestBuilder(21790): createCaptureRequest
+D/Camera2CaptureRequestBuilder(21790): applyAeFpsRange: expectedFrameRateRange = [0, 0]
+D/Camera2CaptureRequestBuilder(21790): applyVideoStabilization: mode = null
+D/CaptureSession(21790): CameraCaptureSession.onConfigured() mState=OPENED
+D/CaptureSession(21790): CameraCaptureSession.onReady() OPENED
+I/le.peage_mobile(21790): Background young concurrent mark compact GC freed 4445KB AllocSpace bytes, 0(0B) LOS objects, 51% free, 4163KB/8597KB, paused 449us,7.988ms total 81.070ms
