@@ -11,6 +11,8 @@ class Account(Base):
     company_id = Column(Integer, ForeignKey("companies.id"), unique=True, nullable=True)
     balance = Column(Float, default=0)
     credit_used = Column(Integer, default=0)
+    trust_credits_remaining = Column(Integer, default=2)
+    min_balance_alert = Column(Float, default=1000)
 
     last_recharge = Column(DateTime)
     status = Column(String, default="actif")

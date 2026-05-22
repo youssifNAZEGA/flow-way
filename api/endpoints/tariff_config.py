@@ -15,7 +15,7 @@ from services.tariff_config_service import (
 )
 
 router = APIRouter(
-    prefix="/tariffs",
+    prefix="/admin/tariffs",
     tags=["Tariffs"]
 )
 
@@ -33,8 +33,11 @@ def create_tariff(
 def get_tariffs(
         db: Session = Depends(get_db)
 ):
-
-    return get_all_tariffs(db)
+    tariffs = get_all_tariffs(db)
+    return {
+        "data": tariffs,
+        "total": len(tariffs)
+    }
 
 
 @router.put("/{tariff_id}")

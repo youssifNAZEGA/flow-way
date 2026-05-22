@@ -5,7 +5,7 @@ from schemas.vehicule import VehicleCreate, VehicleResponse
 from services.vehicule_services import create_vehicle, get_user_vehicles, delete_vehicle
 from core.dependencies import get_current_user
 
-router = APIRouter(prefix="/vehicules", tags=["Vehicules"])
+router = APIRouter(prefix="/vehicles", tags=["Vehicule"])
 
 
 @router.post("/", response_model=VehicleResponse)
