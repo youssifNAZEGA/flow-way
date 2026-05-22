@@ -5,7 +5,8 @@ from .entreprise import Company
 from .litige import Litige
 from .notification import Notification
 from .sitePeage import TollSite
-from .typeVehicule import TypeVehicule
 from .vehicule import Vehicule
 from .voiePeage import TollLane
 from .passage import Passage
+from .typeVehicule import VehiculeType
+from .tariff_config import TariffConfig
