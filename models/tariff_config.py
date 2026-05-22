@@ -29,6 +29,6 @@ class TariffConfig(Base):
 
     is_active = Column(Boolean, default=True)
 
-    vehicle_type = relationship("TypeVehicule")
+    vehicle_type = relationship("VehiculeType")
 
     toll_site = relationship("TollSite")

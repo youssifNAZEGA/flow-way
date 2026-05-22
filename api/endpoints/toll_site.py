@@ -18,7 +18,7 @@ from services.toll_site_service import (
 )
 
 router = APIRouter(
-    prefix="/toll-sites",
+    prefix="/admin/sites",
     tags=["Toll Sites"]
 )
 
@@ -36,8 +36,11 @@ def create_site(
 def get_sites(
         db: Session = Depends(get_db)
 ):
-
-    return get_all_toll_sites(db)
+    sites = get_all_toll_sites(db)
+    return {
+        "data": sites,
+        "total": len(sites)
+    }
 
 
 @router.get("/active")
