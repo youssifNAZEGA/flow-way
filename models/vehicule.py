@@ -20,5 +20,7 @@ class Vehicule(Base):
 
     is_active = Column(Boolean, default=True)
 
+    vehicle_type_id = Column(Integer, ForeignKey("vehicule_types.id"))
+
     owner = relationship("User", back_populates="vehicules")
     company = relationship("Company", back_populates="vehicules")

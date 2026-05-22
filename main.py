@@ -43,6 +43,10 @@ app = FastAPI(
     docs_url="/docs",
     redoc_url="/redoc"
 )
+from api.endpoints.passage_history import router as history_router
+from api.endpoints.toll_site import router as toll_site_router
+from api.endpoints.tariff_config import router as tariff_config_router
+from api.endpoints.vehicule_type import router as vehicule_type_router
 
 # CORS (optionnel mais recommandé pour le frontend)
 app.add_middleware(
@@ -64,3 +68,7 @@ app.include_router(supervision_router)    # ✅ Apparaîtra sous /supervision
 @app.get("/")
 def root():
     return {"message": "SMART PÉAGE API is running 🚀", "docs": "/docs"}
+app.include_router(history_router)
+app.include_router(toll_site_router)
+app.include_router(tariff_config_router)
+app.include_router(vehicule_type_router)
